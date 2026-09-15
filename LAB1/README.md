@@ -1,9 +1,9 @@
 # Lab 1: Bắt gói tin Telnet - SSH
 
-**Họ và tên** : Vũ Bá Lực 
-**Mã số sinh viên** : 1150080104 
-**Lớp** : 11-ĐH-THMT 
-**Môn học** :  An toàn Bảo mật Hệ thống Thông tin 
+**Họ và tên** : Vũ Bá Lực |
+**Mã số sinh viên** : 1150080104 | 
+**Lớp** : 11-ĐH-THMT |
+**Môn học** :  An toàn Bảo mật Hệ thống Thông tin |
 
 ## Tên bài Lab
 
