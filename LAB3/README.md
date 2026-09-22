@@ -4,7 +4,7 @@
 * **Họ và tên:** Vũ Bá Lực
 * **Mã số sinh viên (MSSV):** 1150080104
 * **Lớp:** 11_ĐH_THMT
-* **Học phần:** An toàn và Bảo mật Thông tin (Cybersecurity)
+* **Học phần:** An toàn và Bảo mật Thông tin 
 * **Tên bài thực hành:** LAB 3 – Threats, Vulnerabilities, and Defensive Analysis in Enterprise Endpoint Environments
 
 ---
