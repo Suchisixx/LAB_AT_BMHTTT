@@ -1,7 +1,7 @@
 
 # LAB 4 — KHẢO SÁT VÀ ĐÁNH GIÁ BỀ MẶT MẠNG BẰNG NMAP
 
-## 👤 Thông tin sinh viên
+## 1. Thông tin sinh viên
 
 | Thông tin | Giá trị |
 |-----------|---------|
@@ -12,7 +12,7 @@
 
 ---
 
-## 🎯 Mục tiêu
+## 2. Mục tiêu
 
 - Cài đặt và sử dụng **Nmap** trên Kali Linux và Windows 11.
 - Dựng mạng **VirtualBox Host-Only** an toàn.
@@ -23,7 +23,7 @@
 
 ---
 
-## 🖥️ Môi trường
+## 3. Môi trường
 
 | Thành phần | Phiên bản |
 |------------|-----------|
@@ -38,7 +38,7 @@
 
 ---
 
-## 🛠️ Cách dựng môi trường
+## 4. Cách dựng môi trường
 
 1. Tạo **Host-Only Network** trong VirtualBox: `192.168.56.1/24`.
 2. Gán **Adapter 1 = Host-only** cho cả Kali và Metasploitable 2.
@@ -49,7 +49,7 @@
 
 ---
 
-## Các tình huống đã thực hiện
+## 5. Các tình huống đã thực hiện
 
 | # | Tình huống | Lệnh chính | Kết quả |
 |---|------------|------------|---------|
@@ -68,7 +68,7 @@
 
 ---
 
-## Kết quả PASS / FAIL
+## 6. Kết quả PASS / FAIL
 
 | Hạng mục | Kết quả |
 |----------|---------|
@@ -88,7 +88,7 @@
 
 ---
 
-## Lỗi gặp phải và cách khắc phục
+## 7. Lỗi gặp phải và cách khắc phục
 
 | Lỗi | Nguyên nhân | Cách khắc phục |
 |-----|-------------|----------------|
