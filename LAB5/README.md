@@ -30,15 +30,9 @@ Bài thực hành này xây dựng mô hình mạng doanh nghiệp thu nhỏ v�
 
 ## 🗺️ Mô hình mạng
 
-![Mô hình Lab 5](images/topology.png)
-
 - **LAN:** `10.0.0.0/8` – Domain Controller (`10.0.0.2`), Máy thật (`10.0.0.100`)
 - **DMZ:** `172.16.0.0/16` – Web Server (`172.16.0.2`)
 - **WAN:** DHCP/NAT – Kết nối Internet qua Bridged Adapter
-
----
-
-## 📂 Cấu trúc thư mục
 
 ---
 
@@ -93,14 +87,14 @@ Bài thực hành này xây dựng mô hình mạng doanh nghiệp thu nhỏ v�
 
 | STT | Tình huống | Mục tiêu | Kết quả |
 | :---: | :--- | :--- | :---: |
-| **TH1** | Cấu hình nền tảng | Cấu hình 3 card mạng, LAN IP, DMZ, NAT, rule nền tảng | ✅ PASS |
-| **TH2** | Kiểm tra rule nền tảng | Test ping/DNS/HTTPS từ Domain Controller | ✅ PASS |
-| **TH3** | Chặn ICMP nhưng cho phép Web/DNS | Tạo 3 rule: Block ICMP, Pass DNS, Pass HTTP/HTTPS | ✅ PASS |
-| **TH4** | Chỉ cho một host cụ thể ra Internet | Pass `10.0.0.100`, Block LAN net | ✅ PASS |
-| **TH5** | Cô lập DMZ khỏi LAN | Block DMZ → LAN, Pass DMZ → Any | ✅ PASS |
-| **TH6** | Port Forward WAN → DMZ | NAT Port Forward WAN:8080 → DMZ-Web:80 | ✅ PASS |
-| **TH7** | Bật logging & đọc Firewall Log | Bật log cho rule Block, đọc log tại Status → System Logs | ✅ PASS |
-| **TH8** | Cleanup & Khôi phục | Disable rule tình huống, Enable rule nền tảng, Reset States | ✅ PASS |
+| **TH1** | Cấu hình nền tảng | Cấu hình 3 card mạng, LAN IP, DMZ, NAT, rule nền tảng | PASS |
+| **TH2** | Kiểm tra rule nền tảng | Test ping/DNS/HTTPS từ Domain Controller | PASS |
+| **TH3** | Chặn ICMP nhưng cho phép Web/DNS | Tạo 3 rule: Block ICMP, Pass DNS, Pass HTTP/HTTPS | PASS |
+| **TH4** | Chỉ cho một host cụ thể ra Internet | Pass `10.0.0.100`, Block LAN net | PASS |
+| **TH5** | Cô lập DMZ khỏi LAN | Block DMZ → LAN, Pass DMZ → Any | FAIL |
+| **TH6** | Port Forward WAN → DMZ | NAT Port Forward WAN:8080 → DMZ-Web:80 | PASS |
+| **TH7** | Bật logging & đọc Firewall Log | Bật log cho rule Block, đọc log tại Status → System Logs | PASS |
+| **TH8** | Cleanup & Khôi phục | Disable rule tình huống, Enable rule nền tảng, Reset States | PASS |
 
 ---
 
