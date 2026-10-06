@@ -93,9 +93,9 @@ Bài thực hành này xây dựng mô hình mạng doanh nghiệp thu nhỏ v�
 | **TH3** | Chặn ICMP nhưng cho phép Web/DNS | Tạo 3 rule: Block ICMP, Pass DNS, Pass HTTP/HTTPS | PASS |
 | **TH4** | Chỉ cho một host cụ thể ra Internet | Pass `10.0.0.100`, Block LAN net | PASS |
 | **TH5** | Cô lập DMZ khỏi LAN | Block DMZ → LAN, Pass DMZ → Any | FAIL |
-| **TH6** | Port Forward WAN → DMZ | NAT Port Forward WAN:8080 → DMZ-Web:80 | ✅ PASS |
-| **TH7** | Bật logging & đọc Firewall Log | Bật log cho rule Block, đọc log tại Status → System Logs | ✅ PASS |
-| **TH8** | Cleanup & Khôi phục | Disable rule tình huống, Enable rule nền tảng, Reset States | ✅ PASS |
+| **TH6** | Port Forward WAN → DMZ | NAT Port Forward WAN:8080 → DMZ-Web:80 | PASS |
+| **TH7** | Bật logging & đọc Firewall Log | Bật log cho rule Block, đọc log tại Status → System Logs | PASS |
+| **TH8** | Cleanup & Khôi phục | Disable rule tình huống, Enable rule nền tảng, Reset States | PASS |
 
 ---
 
