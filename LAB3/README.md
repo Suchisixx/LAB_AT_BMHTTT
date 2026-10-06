@@ -5,6 +5,17 @@ Bài thực hành này xây dựng mô hình mạng doanh nghiệp thu nhỏ v�
 
 ---
 
+## 👨‍🎓 THÔNG TIN SINH VIÊN
+| Thông tin | Chi tiết |
+| :--- | :--- |
+| **Họ và tên** | Vũ Bá Lực |
+| **Mã số sinh viên (MSSV)** | 1150080104 |
+| **Lớp** | 11_ĐH_THMT |
+| **Học phần** | An toàn và Bảo mật Thông tin |
+| **Tên bài thực hành** | LAB 5 – Thiết lập mô hình tường lửa pfSense |
+
+---
+
 ## 🖥️ Môi trường & Công cụ
 | Thành phần | Thông tin |
 | :--- | :--- |
